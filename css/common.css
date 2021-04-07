@@ -1,0 +1,108 @@
+/* 公共样式 */
+
+/* 版心 */
+.w {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+/*左右浮动栏*/
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+/* 红色样式 */
+.w .style-red {
+    color: #f10215;
+}
+
+/* 引入字体图标 */
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+
+/* 顶部快捷导航 */
+.shortcut {
+    height: 30px;
+    line-height: 30px;
+    background-color: #e3e4e5;
+    border-bottom: 1px solid #ddd;
+    color: #999;
+    font-weight: 400;
+}
+.shortcut a {
+    color: #999;
+}
+.shortcut .w {
+    background-color: #e3e4e5;
+}
+
+/* 顶部快捷导航 左侧*/
+.shortcut .fl li {
+    height: 30px;
+    padding: 0 7px;
+    border: 1px solid #ddd;
+    line-height: 28px;
+    border-bottom: 0;
+}
+.shortcut .fl li:hover {
+    cursor: pointer;
+    background-color: white;
+}
+.shortcut .fl li:hover a {
+    color: #f10215;
+}
+
+.fl .iconfont-location svg {
+    color: #f10215;
+    font-size: 1.2em;
+}
+
+/* 顶部快捷导航 右侧*/
+.shortcut .fr li {
+    float: left;
+}
+
+.shortcut .fr li.spacer {
+    margin: 11px 5px 0;
+    width: 1px;
+    height: 10px;
+    overflow: hidden;
+    background-color: rgb(204, 204, 204);
+}
+
+.shortcut .shortcut_btn {
+    position: relative;
+}
+
+.shortcut .shortcut_btn .dt {
+    padding: 0 7px;
+}
+
+.shortcut .shortcut_btn .container_icon {
+    padding-right: 21px;
+}
+
+.shortcut .shortcut_btn i {
+    position: absolute;
+    font-size: 7px;
+    top: 7.5px;
+    right: 8px;
+    line-height: 12px;
+}
+
+.shortcut .t-login {
+    margin-right: 8px;
+}
+
+.shortcut .shortcut_btn .container_mobile {
+    width: 60px;
+    text-align: center;
+}
