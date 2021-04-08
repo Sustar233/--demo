@@ -1,0 +1,102 @@
+/* header */
+header {
+    height: 140px;
+    border: 1px solid #e5e5e5;
+    border-left: 0;
+    border-right: 0;
+}
+
+header .w {
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    width: 190px;
+    height: 120px;
+    top: 10px;
+    background: url(../img/logo.png) no-repeat 2px 0 ;
+}
+
+/* 搜索区域 */
+header #search {
+    position: absolute;
+    left: 260px;
+    top: 25px;
+    background-color: rgb(173, 142, 142);
+}
+
+#search .f-search {
+    position: relative;
+    width: 546px;
+    height: 32px;
+    border: 2px solid #dc0000;
+}
+
+.f-search .inp-search {
+    padding-top: 1px;
+    padding-left: 17px;
+    padding-right: 40px;
+    width: 430px;
+    height: 31px;
+    border: 0;
+    font-size: 0.8em;
+}
+
+.f-search .photo {
+    position: absolute;
+    right: 59px;
+    top: 3px;
+    width: 50px;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.f-search button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 58px;
+    height: 33px;
+    background-color: #e1251b;
+}
+.f-search button .icon {
+    color: white;
+    font-size: 1.6em;
+}
+
+/* 购物车 */
+#search .mycart {
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 130px;
+    height: 34px;
+    border: 1px solid #eee;
+}
+
+.mycart i {
+    position: absolute;
+    top: 4px;
+    left: 19px;
+    font-size: 1.3em;
+    color: #dd0a00;
+}
+
+.mycart a {
+    display: inline-block;
+    color: #dd0a00;
+    margin-left: 51px;
+    margin-top: 8.5px;
+}
+
+.mycart .items {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 5px;
+    /* padding-left: 5px; */
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+}
