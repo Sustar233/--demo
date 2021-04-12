@@ -107,3 +107,125 @@
     text-align: center;
 }
 
+/* footer */
+footer {
+    background-color: #eaeaea;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* footer 1 slogen */
+footer .slogen {
+    border-bottom: 1px solid #dedede;
+}
+
+footer .slogen ol {
+    display: flex;
+    padding: 30px 10px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.slogen .slogen_item {
+    position: relative;
+    flex: 1;
+    padding-left: 46px;
+    margin-left: 45px;
+    color: #444;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.slogen .slogen_item i {
+    position: absolute;
+    left: 0;
+    font-size: 0;
+    width: 36px;
+    height: 42px;
+}
+
+.slogen .slogen_item .slogen_i1 {
+    background: url(../img/ico_service.png) 0 0 no-repeat;
+}
+.slogen .slogen_item .slogen_i2 {
+    background: url(../img/ico_service.png) 0 -43px no-repeat;
+}
+.slogen .slogen_item .slogen_i3 {
+    background: url(../img/ico_service.png) 0 -86px no-repeat;
+}
+.slogen .slogen_item .slogen_i4 {
+    background: url(../img/ico_service.png) 0 -129px no-repeat;
+}
+
+/* footer 2 help */
+footer .help {
+    padding: 21px 0;
+    border-bottom: 1px solid #dedede;
+}
+
+footer .help .wrap {
+    padding-left: 55px;
+    width: 1275px;
+    height: 155px;
+}
+
+.help .wrap dt {
+    height: 22px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #777;
+}
+
+.help .wrap dl {
+    float: left;
+    width: 255px;
+    line-height: 22px;
+}
+
+.help .wrap dd {
+    height: 22px;
+    font-size: 12px;
+    color: #666;
+    overflow: hidden;
+}
+
+/* footer 3 copyright links */
+.footer_copyright .w {
+    width: 1100px;
+}
+
+.footer_copyright .footer_links {
+    padding: 18px 0;
+}
+
+.footer_copyright p {
+    font-size: 0;
+}
+
+.footer_copyright p a {
+    font-size: 12px;
+}
+
+.footer_copyright p a:first-child {
+    margin-left: 8px;
+}
+
+.footer_copyright p .link_split {
+    font-size: 12px;
+    margin: 0 10px;
+    color: #ccc;
+}
+
+.footer_copyright .copyright {
+    text-align: center;
+}
+
+.footer_copyright .copyright p {
+    height: 22px;
+}
+
+.footer_copyright .copyright p a {
+    color: #999;
+}
