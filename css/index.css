@@ -4,6 +4,7 @@ header {
     border: 1px solid #e5e5e5;
     border-left: 0;
     border-right: 0;
+    background-color: #fff;
 }
 
 header .w {
@@ -16,6 +17,13 @@ header .logo {
     width: 190px;
     height: 120px;
     top: 10px;
+}
+
+header .logo a {
+    display: block;
+    width: 190px;
+    height: 120px;
+    font-size: 0;
     background: url(../img/logo.png) no-repeat 2px 0 ;
 }
 
@@ -27,14 +35,14 @@ header #search {
     background-color: rgb(173, 142, 142);
 }
 
-#search .f-search {
+#search .f_search {
     position: relative;
     width: 546px;
     height: 32px;
     border: 2px solid #dc0000;
 }
 
-.f-search .inp-search {
+.f_search .inp-search {
     padding-top: 1px;
     padding-left: 17px;
     padding-right: 40px;
@@ -44,7 +52,7 @@ header #search {
     font-size: 0.8em;
 }
 
-.f-search .photo {
+.f_search .photo {
     position: absolute;
     right: 59px;
     top: 3px;
@@ -53,7 +61,7 @@ header #search {
     text-align: center;
 }
 
-.f-search button {
+.f_search button {
     position: absolute;
     top: 0;
     right: 0;
@@ -61,7 +69,7 @@ header #search {
     height: 33px;
     background-color: #e1251b;
 }
-.f-search button .icon {
+.f_search button .icon {
     color: white;
     font-size: 1.6em;
 }
@@ -122,22 +130,22 @@ header #search {
 }
 
 /* 主导航栏 */
-header .h-nav {
+header .h_nav {
     position: absolute;
     left: 203px;
     bottom: 0;
 }
 
-header .h-nav ul li {
+header .h_nav ul li {
     float: left;
 }
 
-.h-nav ul li.hot a {
+.h_nav ul li.hot a {
     font-weight: 700;
     color: #e1251b;
 }
 
-header .h-nav ul li a {
+header .h_nav ul li a {
     margin: 0 11.5px;
     display: block;
     height: 40px;
@@ -145,3 +153,144 @@ header .h-nav ul li a {
     font-size: 15px;
 }
 
+/* main */
+.main {
+    margin-top: 10px;
+}
+
+/* main column1 menu */
+.main .m_col1 {
+    float: left;
+    width: 190px;
+    height: 480px;
+}
+
+.main .m_menu {
+    background-color: #fefefe;
+    padding: 10px 0;
+}
+
+.m_menu ul.cate_menu {
+    height: 450px;
+}
+
+/* font-size 设为0可以消除html换行生成的空格 */
+.m_menu ul.cate_menu li {
+    overflow: hidden;
+    padding-left: 18px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 0;
+}
+
+.m_menu ul.cate_menu li:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+.m_menu ul.cate_menu li a {
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+}
+
+.m_menu ul.cate_menu li a:hover {
+    color: rgb(177, 26, 37);
+}
+
+.m_menu li span {
+    padding: 0 2px;
+    font-size: 12px;
+}
+
+/* main column2 slider */
+.m_col2 {
+    float: left;
+    width: 790px;
+    height: 470px;
+    margin: 0 10px;
+}
+
+.m_slider .sliderBannerWrapper {
+    float: left;
+    width: 590px;
+    height: 470px;
+    background-color: yellow;
+}
+
+.m_slider .sliderBanner {
+    position: relative;
+    overflow: hidden;
+    height: 470px;
+}
+
+.m_slider .sliderBanner .slider_ctrl {
+    position: absolute;
+    width: 45px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 17px;
+    background-color: rgba(0,0,0,.15);
+}
+
+.m_slider .sliderBanner .slider_ctrl i {
+    position: relative;
+    top: -1px;
+    color: rgba(255,255,255,.9);
+    font-size: 0.8em;
+}
+
+.m_slider .sliderBanner .slider_btn_pre {
+    top: 50%;
+    left: -20px;
+    transform: translateY(-60%);
+}
+
+.m_slider .sliderBanner .slider_btn_pre i {
+    left: 8px;
+}
+
+.m_slider .sliderBanner .slider_btn_next {
+    top: 50%;
+    right: -20px;
+    transform: translateY(-60%);
+}
+
+.m_slider .sliderBanner .slider_btn_next i {
+    right: 8px;
+}
+
+.m_slider .sliderRecommendWrapper {
+    float: left;
+    margin-left: 10px;
+    width: 190px;
+    height: 470px;
+    background-color: pink;
+}
+
+.m_slider .slider_nav {
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+
+.m_slider .slider_nav li {
+    float: left;
+    margin-left: 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(155, 155, 155, 0.4);
+}
+
+.m_slider .slider_nav li:first-child {
+    margin-left: 0;
+}
+
+.m_slider .slider_nav li.current {
+    background-color: white;
+    box-shadow: 0 0 2px gray;
+}
+
+.m_slider .slider_item .focus-item-img {
+    width: 590px;
+    height: 470px;
+}
