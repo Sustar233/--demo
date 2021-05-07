@@ -393,23 +393,156 @@ header .h_nav ul li a {
     color: #e5d790;
 }
 
-.m_login .m_welfare::after {
+.m_login .m_welfare::after,
+.m_service::after {
     position: absolute;
     height: 1px;
     left: 15px;
     right: 15px;
-    background: linear-gradient(270deg, white, #eee, #eee);
+    background: linear-gradient(270deg, white, #eeeeee, #eeeeee, white);
     content: " ";
     bottom: 0;
 }
 
 .m_col3 .m_news {
+    position: relative;
     height: 130px;
-    /* background-color: yellow; */
 }
 
-.m_col3 .m_serve {
+.m_news .news_h {
+    position: relative;
+    background-color: white;
+    padding: 10px 0 8px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.m_news .news_h h5 {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.m_news .news_h .news_h_more {
+    position: absolute;
+    right: 23.5px;
+    top: 10px;
+    color: #999;
+}
+
+.news_h_more .icon {
+    position: absolute;
+    top: 8px;
+    font-size: 5.5px;
+}
+
+.m_news .news_b {
+    margin: 0 15px;
+    height: 88px;
+}
+
+.m_news .news_b li {
+    max-width: 160px;
+    height: 16px;
+    line-height: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #999;
+    margin-bottom: 6px;
+}
+
+.m_news .news_b .news_tag {
+    display: inline-block;
+    margin-right: 2.5px;
+    height: 16px;
+    width: 35px;
+    text-align: center;
+    color: #e1251b;
+    background-color: #fdeeed;
+}
+
+.m_col3 .m_service {
+    position: relative;
     height: 238px;
-    background-color: blue;
 }
 
+.m_service::after {
+    top: -10px;
+}
+
+.m_service .service_list {
+    margin-top: 10px;
+}
+
+.m_service .service_item {
+    float: left;
+    width: 63px;
+    height: 55px;
+    text-align: center;
+}
+
+.m_service .service_icon {
+    display: block;
+    margin: 0 auto;
+    width: 28px;
+    height: 28px;
+    background-color: pink;
+}
+
+.serv11 .service_icon {
+    background: url(../img/m_serve_icon.png) no-repeat -2.5px -3.5px;
+}
+
+.serv12 .service_icon {
+    background: url(../img/m_serve_icon.png) no-repeat -65.5px -3.5px;
+}
+
+.serv13 .service_icon {
+    background: url(../img/m_serve_icon.png) no-repeat -129px -3.5px;
+}
+
+.serv21 .service_icon {
+    background: url(../img/m_serve_icon.png) no-repeat -2.5px -59px;
+}
+
+.serv22 .service_icon {
+    background: url(../img/m_serve_icon.png) no-repeat -65.5px -59px;
+}
+
+.serv23 .service_icon {
+    background: url(../img/m_serve_icon.png) no-repeat -129px -59px;
+}
+
+.serv31 .service_icon {
+    background: url(../img/m_serve_icon.png) no-repeat -2.5px -114.5px;
+}
+
+.serv32 .service_icon {
+    background: url(../img/m_serve_icon.png) no-repeat -65.5px -114.5px;
+}
+
+.serv33 .service_icon {
+    background: url(../img/m_serve_icon.png) no-repeat -129.5px -114.5px;
+}
+
+.serv41 .service_icon {
+    background: url(../img/m_serve_icon.png) no-repeat -2.5px -169px;
+}
+
+.serv42 .service_icon {
+    background: url(../img/m_serve_icon.png) no-repeat -65.5px -169px;
+}
+
+.serv43 .service_icon {
+    background: url(../img/m_serve_icon.png) no-repeat -129.5px -169px;
+}
+
+
+.m_service .service_txt {
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    color: #333;
+}
