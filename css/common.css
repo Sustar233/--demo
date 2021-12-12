@@ -229,3 +229,40 @@ footer .help .wrap {
 .footer_copyright .copyright p a {
     color: #999;
 }
+
+/* slider btn */
+.slider_ctrl {
+  position: absolute;
+  width: 45px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 17px;
+  background-color: rgba(0,0,0,.15);
+}
+
+.slider_ctrl i {
+  position: relative;
+  top: -1px;
+  color: rgba(255,255,255,.9);
+  font-size: 0.8em;
+}
+
+.slider_btn_pre {
+  top: 50%;
+  left: -20px;
+  transform: translateY(-60%);
+}
+
+.slider_btn_pre i {
+  left: 8px;
+}
+
+.slider_btn_next {
+  top: 50%;
+  right: -20px;
+  transform: translateY(-60%);
+}
+
+.slider_btn_next i {
+  right: 8px;
+}
