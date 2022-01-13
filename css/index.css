@@ -708,3 +708,47 @@ header .h_nav ul li a {
   color: #fff;
   background-color: #e1251b;
 }
+
+/* ap_channels */
+#ap_channels {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.channels_head {
+  height: 65px;
+}
+
+.channels_title {
+  position: relative;
+  margin: 0 auto 20px;
+  padding: 0 30px;
+  width: 150px;
+  height: 45px;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #333;
+}
+
+.channels_title:after,
+.channels_title:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  background-image: url(../img/sprite.png);
+  width: 25px;
+  height: 20px;
+}
+
+.channels_title:before {
+  left: 0;
+}
+
+.channels_title:after {
+  right: 0;
+  background-position: -25px 0;
+}
+
